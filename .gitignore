@@ -5,7 +5,7 @@
 Thumbs.db
 
 # ==========================
-# VS Code / Eclipse / IntelliJ
+# VS Code / IntelliJ / Eclipse
 # ==========================
 .vscode/
 .idea/
@@ -19,8 +19,15 @@ Thumbs.db
 # ==========================
 # Java / Spring Boot / Maven
 # ==========================
+
+# Build output
 target/
+backend/target/
+
+# Compiled files
 *.class
+
+# Packaged files
 *.jar
 *.war
 *.ear
@@ -38,11 +45,16 @@ target/
 .env.*
 
 # ==========================
-# React / Node frontend
+# Frontend / React / Node
 # ==========================
 node_modules/
+frontend/node_modules/
+
 dist/
+frontend/dist/
+
 build/
+frontend/build/
 
 # npm/yarn logs
 npm-debug.log*
@@ -50,7 +62,7 @@ yarn-debug.log*
 yarn-error.log*
 
 # ==========================
-# Coverage / temporary files
+# Coverage / temporary
 # ==========================
 coverage/
 tmp/
